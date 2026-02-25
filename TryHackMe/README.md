@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-    These are the write-ups, reports and additional notes I've compiled in the realisation of the [TryHackMe](https://tryhackme.com/challenges) war games.
+    These are the write-ups, reports and additional notes I've compiled in the realisation of the <a href="https://tryhackme.com/challenges"> TryHackMe </a> war games.
 </p>
 
 <br>
