@@ -10,18 +10,17 @@
 
 > <p> <span> English - ENG </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/README.es.md> Spanish - ESP<a/>. </p>
 
------
+---
 
 <br>
 
-
-<div align="center">
-    <p> These are the write-ups, reports and additional notes I've compiled in the realisation of the <a href="https://picoctf.org/"> PicoCTF</a> beginner war games. </p>
-</div>
+<p align="center"> 
+    These are the write-ups, reports and additional notes I've compiled in the realisation of the <a href="https://picoctf.org/"> PicoCTF</a> beginner war games.
+</p>
 
 <br>
 
------
+---
 
 <br>
 

@@ -8,7 +8,9 @@
 
 <br>
 
-These are the write-ups, reports and additional notes I've compiled in the realisation of the [TryHackMe](https://tryhackme.com/challenges) war games.
+<p align="center">
+    These are the write-ups, reports and additional notes I've compiled in the realisation of the [TryHackMe](https://tryhackme.com/challenges) war games.
+</p>
 
 <br>
 

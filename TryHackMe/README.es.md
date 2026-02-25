@@ -4,11 +4,13 @@
 
 > <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/TryHackMe/README.md> Inglés - ING<a/>. </p>
 
------
+---
 
 <br>
 
-Estos son los _write-ups_, reportes y algunas notas adicionales que guardé de la realización de los _wargames_ de [TryHackMe](https://tryhackme.com/challenges).
+<p align="center">
+    Estos son los _write-ups_, reportes y algunas notas adicionales que guardé de la realización de los _wargames_ de [TryHackMe](https://tryhackme.com/challenges).
+</p>
 
 <br>
 
