@@ -84,5 +84,5 @@ y así es como sabemos que nos logeamos efectivamente al nivel 1.
 
 > Procedimiento entero.
 
-<br>
+---
 

@@ -84,10 +84,4 @@ And that is what you should be seeing at last if the credentials for the level o
 
 > Entire procedure.
 
-<br>
-
-![](./attachments/level-0_century_underthewire.mp4)
-
-<br>
-
 ---
