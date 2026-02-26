@@ -54,7 +54,7 @@
 
 <br>
 
-3. Y eso debería ser todo. Una vez entres al nivel 1 del _challenge_ con las credenciales correctas, al lado del _prompt_, deberías poder ver tu ubicación en la capeta, siendo esta...
+3. Y eso debería ser todo. Una vez entres al nivel 1 del _challenge_ con las credenciales correctas, al lado del _prompt_, deberías poder ver tu ubicación...
 
 <br>
 
@@ -62,7 +62,11 @@
 
 	PS C:\Users\Century1\desktop>
 
-``` 
+```
+
+<br>
+
+- y así es como sabemos que nos logeamos efectivamente al nivel 1.
 
 <br>
 

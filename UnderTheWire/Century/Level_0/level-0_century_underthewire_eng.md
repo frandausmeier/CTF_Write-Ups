@@ -54,7 +54,19 @@
 
 <br>
 
-3. And that should be it. Once you enter the correct credentials and it lets you in the server, you should see yourself in the directory ```PS C:\Users\Century1\desktop> ```, that is how you know you entered effectively to the Level 1.
+3. And that should be it. Once you enter the correct credentials and it lets you in the server, you should see yourself in the directory 
+
+<br>
+
+```
+    
+    PS C:\Users\Century1\desktop>
+
+```
+
+<br>
+
+- that is how you know you entered effectively to the Level 1.
 
 <br>
 
