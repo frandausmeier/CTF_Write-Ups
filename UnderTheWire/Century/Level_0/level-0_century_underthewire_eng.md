@@ -5,7 +5,7 @@
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/nivel-0_century_underthewire_esp.md).
 
-> [PDF version](https://drive.google.com/file/d/1z4pzHnPmNcvz8t_OIRRV8sB1lVtLcFXa/view?usp=sharing).
+> [PDF version](https://drive.google.com/file/d/1PrviuoAnuWOze6A0s2OV_JgdBdNKyEbd/view?usp=sharing).
 
 <br>
 
@@ -87,5 +87,7 @@
 </p>
 
 > Entire procedure.
+
+<br>
 
 ---

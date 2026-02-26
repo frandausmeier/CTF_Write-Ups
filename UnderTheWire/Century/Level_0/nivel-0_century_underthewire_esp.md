@@ -5,7 +5,7 @@
 
 > Español | [Inglés](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/level-0_century_underthewire_eng.md).
 
-> [Versión en PDF](https://drive.google.com/file/d/1nVbwqBs2oNTHlGhH82ytjgnoQme6beto/view?usp=sharing).
+> [Versión en PDF](https://drive.google.com/file/d/1O_wDygpBFFe3OPuwgj-6QYUWDdhlRbBR/view?usp=sharing).
 
 <br>
 
@@ -87,6 +87,8 @@
 </p>
 
 > Procedimiento entero.
+
+<br>
 
 ---
 
