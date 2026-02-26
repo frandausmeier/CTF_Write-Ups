@@ -5,7 +5,7 @@
 
 > English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_0/nivel-0_century_underthewire_esp.md).
 
-> [PDF version](https://drive.google.com/file/d/1UBVA2lnsoyYOrJKaFXTq6g4TRtGLFD10/view?usp=drive_link).
+> [PDF version](https://drive.google.com/file/d/1z4pzHnPmNcvz8t_OIRRV8sB1lVtLcFXa/view?usp=sharing).
 
 <br>
 
@@ -60,13 +60,17 @@
 
 ```
     
-    PS C:\Users\Century1\desktop>
+    Windows PowerShell
+    Copyright (C) 2016 Microsoft Corporation. All rights reserved.
+    
+    Under the Wire... PowerShell Training for the People!
+    PS C:/users/century1/desktop>
 
 ```
 
 <br>
 
-And that is what you should be seeing at last if the credentials for the level of the challenge ("century1":"century1") have been entered correctly, that's how you know you have logged in correctly.
+- And finally, this is the output that you should be seeing if the correct credentials ("century1":"century1") were entered, having correctly logged in to the first level of the challenge.
 
 <br>
 
