@@ -38,7 +38,7 @@
 
 <br>
 
-1. Using the details given by the challenge, in this case, the host-name and the port, to log effectively to the server of the challenge. In my case, I am going to be doing it with [PuTTY](https://www.putty.org/) as a SSH client.
+1. We are going to start by using the main details given in the description of the challenge, in this case, the host-name and the port of the server to which we have to log in, alongside a SSH client to be able to log in from Windows with those details and the credentials we have to search in the Slack chanel that the site has. In this case, I am going to be using [PuTTY](https://www.putty.org/) as the SSH client.
 
 <br>
 
@@ -46,7 +46,7 @@
 
 <br>
 
-2. Once you have entered those details to PuTTY, press "Open" in the application. That's where the login for the server is going to get open and is going to ask you for a _user-name_ and _password_ that they are giving for this level on their Slack channel ( " _century1_ " for user-name and _password_).
+2. After getting into the Slack channel, we arrive at the section that has the login credentials, these being "century1" as the user and as the password. So, with this in mind, after installing [PuTTY](https://www.putty.org/), we open it and enter the host-name that we have for the challenge in the "Host Name (or IP address)" part of the application. We also have to make sure that right next to the "Host Name (or IP address)" box, where we have the "Port" box, the number there indicates the SSH protocol, in this case, 22. We can also make sure SSH is the protocol selected as the communication type in "Connection type". After these specifications, we can press enter to start the connection.
 
 <br>
 
@@ -54,7 +54,7 @@
 
 <br>
 
-3. And that should be it. Once you enter the correct credentials and it lets you in the server, you should see yourself in the directory 
+3. At this point, with the correct host-name of the server and protocol for the connection, you should be seeing a terminal window being open. This is the one that is going to query you for the credentials to login.\
 
 <br>
 
@@ -66,7 +66,7 @@
 
 <br>
 
-- that is how you know you entered effectively to the Level 1.
+And that is what you should be seeing at last if the credentials for the level of the challenge ("century1":"century1") have been entered correctly, that's how you know you have logged in correctly.
 
 <br>
 

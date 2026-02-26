@@ -66,7 +66,7 @@
 
 <br>
 
-- y así es como sabemos que nos logeamos efectivamente al nivel 1.
+y así es como sabemos que nos logeamos efectivamente al nivel 1.
 
 <br>
 
