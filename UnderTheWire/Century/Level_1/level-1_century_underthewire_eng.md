@@ -3,7 +3,7 @@
 # [Level 1](https://underthewire.tech/century)
 > Century Level 1
 
-> English | [Spanish](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_1/nivel-1_century_underthewire_eng.md).
+> English | [Spanish](./nivel-1_century_underthewire_esp.md).
 
 > [PDF version]().
 
