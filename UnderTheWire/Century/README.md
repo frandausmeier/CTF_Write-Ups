@@ -15,9 +15,7 @@
 
 <br>
 
-- ~~Level 2~~ | ~~Nivel 2~~ .
-
-<!-- [Level 2 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_2/level-2_century_underthewire_eng.md) | [Nivel 2 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_2/nivel-2_century_underthewire_esp.md). -->
+- [Level 2 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_2/level-2_century_underthewire_eng.md).<!-- | [Nivel 2 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_2/nivel-2_century_underthewire_esp.md). -->
 
 <br>
 
