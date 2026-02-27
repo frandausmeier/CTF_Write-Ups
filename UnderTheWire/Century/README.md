@@ -11,9 +11,7 @@
 
 <br>
 
-- ~~Level 1~~ | ~~Nivel 1~~ .
-
-<!-- [Level 1 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_1/level-1_century_underthewire_eng.md) | [Nivel 1 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_1/nivel-1_century_underthewire_esp.md). -->
+- [Level 1 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_1/level-1_century_underthewire_eng.md) | [Nivel 1 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_1/nivel-1_century_underthewire_esp.md).
 
 <br>
 
