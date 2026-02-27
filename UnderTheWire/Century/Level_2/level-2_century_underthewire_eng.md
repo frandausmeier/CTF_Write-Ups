@@ -45,7 +45,7 @@ We can check for both on the system, the cmdlet and the alias, using the [Get-Co
 
 <br>
 
-```
+```powershell
 
     PS C:\users\century2\desktop> Get-Command Invoke-WebRequest
 
@@ -68,7 +68,7 @@ We can check for both on the system, the cmdlet and the alias, using the [Get-Co
 
 <br>
 
-```
+```powershell
 
 	PS C:\users\century2\desktop> Get-Help iwr
 
@@ -120,7 +120,7 @@ We can check for both on the system, the cmdlet and the alias, using the [Get-Co
 
 <br>
 
-```
+```powershell
 
 	PS C:\users\century2\desktop> ls
 
@@ -148,7 +148,7 @@ We can check for both on the system, the cmdlet and the alias, using the [Get-Co
 
 <br>
 
-```
+```powershell
 
 	PS C:\Users\fdm> ssh century3@century.underthewire.tech
 	century3@century.underthewire.tech's password: 
