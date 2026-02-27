@@ -27,6 +27,7 @@
 <br>
 
 ## Information given by the challenge.
+> Useful information given by the previous level.
 - _hostname_: " century.underthewire.tech ".
 - _port_: " 22 " (2220).
 - _user_: " century1 ".

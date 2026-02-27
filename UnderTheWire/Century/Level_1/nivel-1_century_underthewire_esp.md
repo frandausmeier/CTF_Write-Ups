@@ -13,7 +13,7 @@
 
 <br>
 
-## Challenge description.
+## Descripción del _challenge_.
 > The password for Century2 is the build version of the instance of PowerShell installed on this system.
 >
 > - NOTE:
@@ -26,11 +26,12 @@
 
 <br>
 
-## Information given by the challenge.
-- _hostname_: " century.underthewire.tech ".
-- _port_: " 22 " (2220).
-- _user_: " century1 ".
-- _password_: " century1 ".
+## Información dada por el _challenge_.
+> Información de utilidad dada por el nivel anterior.
+- _host_name_: " century.underthewire.tech ".
+- _puerto_: " 22 " (2220).
+- _usuario_: " century1 ".
+- _contraseña_: " century1 ".
 
 <br>
 
@@ -38,7 +39,7 @@
 
 <br>
 
-## Procedure.
+## Procedimiento.
 
 <br>
 
@@ -46,7 +47,7 @@
 
 <br>
 
-```
+```powershell
 
     PS C:\users\century1\desktop> $PSVersionTable 
 
@@ -62,19 +63,28 @@
 
 <br>
 
+```powershell
+
+    Name                                     Value
+    ----                                     ----
+	PSVersion                                5.1.14393.8688
+    PSEdition                                Desktop
+    PSCompatibleVersions                     {1.0, 1.0, 3.0, 4.0...}
+    BuildVersion                             10.0.14393.8688
+    CLRVersion                               4.0.30319.42000
+    WSManStackVersion                        3.0
+    PSRemotingProtocolVersion                2.3
+    SerializationVersion                     1.1.0.1
+
+```
+
+<br>
+
 ---
 
 <br>
 
-3. .
-
-<br>
-
----
-
-<br>
-
-### Attachments.
+### Adjuntos.
 
 <br>
 
@@ -82,7 +92,7 @@
   <img src="./attachments/level-1_century_underthewire.gif"/>
 </p>
 
-> Entire procedure.
+> Procedimiento entero.
 
 <br>
 
