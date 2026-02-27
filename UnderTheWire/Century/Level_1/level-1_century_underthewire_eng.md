@@ -5,7 +5,7 @@
 
 > English | [Spanish](./nivel-1_century_underthewire_esp.md).
 
-> [PDF version]().
+> [PDF version](https://drive.google.com/file/d/16FpIrtXWdYzoHQR_3O1tZHyRkAC-2-fS/view?usp=sharing).
 
 <br>
 
@@ -42,11 +42,12 @@
 
 <br>
 
-1. .
+1. Once we have successfully logged in to Century's Level 1, we are tasked with founding the flag of the level and the password for Century's Level 2, the build of our current version of PowerShell.\
+Knowing this, and after a while making a couple of searches, looking for a command or commands that allows to get this information, we usually arrive at the conclusion that, the most used and recommended option for this case would be ``` $PSVersionTable ```, a reading only automatic variable that stores some information about PowerShell and our system, including the PowerShell version (PSVersion), the edition of PowerShell (PSEdition), other PowerShell compatible versions with ours (PSCompatibleVersions) and amongst all of that information, we can find the PowerShell build version (BuildVersion). So, with this in mind, we execute that variable to get the information. 
 
 <br>
 
-```
+```powershell
 
     PS C:\users\century1\desktop> $PSVersionTable 
 
@@ -58,15 +59,28 @@
 
 <br>
 
-2. .
+2. After correctly executing the variable, we should some output that resembles something like this...
 
 <br>
 
----
+```powershell
+
+    Name                                     Value
+    ----                                     ----
+	PSVersion                                5.1.14393.8688
+    PSEdition                                Desktop
+    PSCompatibleVersions                     {1.0, 1.0, 3.0, 4.0...}
+    BuildVersion                             10.0.14393.8688
+    CLRVersion                               4.0.30319.42000
+    WSManStackVersion                        3.0
+    PSRemotingProtocolVersion                2.3
+    SerializationVersion                     1.1.0.1
+
+```
 
 <br>
 
-3. .
+- And that's where we get the build version of our PowerShell version. So, following this, our password for the Level 2 is "10.0.14393.8688", we will be able to log in to Level 2 using it, of course, alongside "century2" as the user, and the already mentioned host_name and communication protocol details that we have discussed in the last level.
 
 <br>
 
