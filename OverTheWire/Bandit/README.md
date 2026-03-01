@@ -1,7 +1,7 @@
 [OverTheWire](../README.md) | [CTF Write-Ups](../../README.md)
 
 # [Bandit](https://overthewire.org/wargames/bandit/)
-> Unix / Linux Basics | Fundamentos en Unix / Linux.
+> Fundamentals on Linux and Bash.
 
 ---
 

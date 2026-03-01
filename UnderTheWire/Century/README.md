@@ -1,7 +1,8 @@
 > [UnderTheWire](../README.md) | [CTF Write-Ups](../../README.md)
 
 # [Century](https://underthewire.tech/century) | [UnderTheWire](../README.md)
-> Powershell Basics.
+
+> Powershell basics.
 
 ---
 
