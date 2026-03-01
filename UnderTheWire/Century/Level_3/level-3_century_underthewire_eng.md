@@ -42,8 +42,6 @@ For that purpose we can use [Get-Location](https://www.pdq.com/powershell/get-lo
 
 - In the first case, using [Get-Location](https://www.pdq.com/powershell/get-location/)...
 
-<br>
-
 ```powershell
 
     PS C:\users\century2\desktop> Get-Location
@@ -58,8 +56,6 @@ For that purpose we can use [Get-Location](https://www.pdq.com/powershell/get-lo
 
 - using the second option, [gl](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.management/get-location?view=powershell-7.5#notes:~:text=PowerShell%20incluye%20los%20siguientes%20alias%20para%20Get%2DLocation%3A)...
 
-<br>
-
 ```powershell
 
     PS C:\users\century2\desktop> gl
@@ -73,8 +69,6 @@ For that purpose we can use [Get-Location](https://www.pdq.com/powershell/get-lo
 <br>
 
 - or with the third one, just using [pwd](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.management/get-location?view=powershell-7.5#notes:~:text=PowerShell%20incluye%20los%20siguientes%20alias%20para%20Get%2DLocation%3A)...
-
-<br>
 
 ```powershell
 
@@ -100,13 +94,15 @@ With all of this, we are just obtaining a detailed list of all the files at that
 
 <br>
 
-- This would be the fully formed command using ``` GetChild-Item ```.
-
 <br>
+
+- This would be the fully formed command using [GetChild-Item](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.5)...
 
 ```powershell
 
-	PS C:\users\century2\desktop> Get-ChildItem ../Desktop/ -File | Measure-Object
+	PS C:\users\century2\desktop> Get-ChildItem ../Desktop/ `
+    >> -File | Measure-Object
+    >>
     
     Count     : 123
     Average   :
@@ -118,11 +114,13 @@ With all of this, we are just obtaining a detailed list of all the files at that
 ```
 <br>
 
-- using ``` gci ```.
+- using [gci](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.5#:~:text=PowerShell%20incluye%20los%20siguientes%20alias%20para%20Get%2DChildItem)...
 
 ```powershell
 
-	PS C:\users\century2\desktop> gci ..\Desktop\ -File | Measure-Object
+	PS C:\users\century2\desktop> gci ..\Desktop\ `
+    >> -File | Measure-Object
+    >>
     
     Count     : 123
     Average   :
@@ -135,12 +133,14 @@ With all of this, we are just obtaining a detailed list of all the files at that
 
 <br>
 
-- or with ``` ls ```.
+- or with [ls](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.5#:~:text=PowerShell%20incluye%20los%20siguientes%20alias%20para%20Get%2DChildItem)...
 
 ```powershell
 
-	PS C:\users\century2\desktop> ls ..\Desktop\ -File | Measure-Object
-
+	PS C:\users\century2\desktop> ls ..\Desktop\ `
+    >> -File | Measure-Object
+	>>
+    
 	Count     : 123
     Average   :
     Sum       :
@@ -173,3 +173,4 @@ With all of this, we are just obtaining a detailed list of all the files at that
 <br>
 
 ---
+
