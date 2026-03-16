@@ -42,8 +42,6 @@
 1. So, following the description of the challenge, we know that we have to obtain 2 pieces of information to reach the password for Century6, the first of those two being the short name of the domain in which our instance of PowerShell is running. This piece of information can also be found in the system as "`` NetBIOSName ``".\
 What we can use in this case, is the cmdlet [Get-ADDomain](https://learn.microsoft.com/ja-jp/powershell/module/activedirectory/get-addomain?view=windowsserver2022-ps#:~:text=Gets%20an%20Active%20Directory%20domain.). It allows you to obtain the Active Directory domain specified by the set parameters in the command and a good amount of information about the specified domain.
 
-.
-
 <br>
 
 ```powershell
