@@ -5,7 +5,7 @@
 
 > English | [Spanish](./nivel-5_century_underthewire_esp.md).
 
-> [PDF version](https://drive.google.com/file/d/1Qyalc7NQ9-QWEzg_FpkJHu2W9xKqNZ_q/view?usp=drive_link).
+> [PDF version](https://drive.google.com/file/d/1wi-Qv6bTqJNCNJjBW1BKA6Hu_GLYCilA/view?usp=sharing).
 
 <br>
 
@@ -27,7 +27,7 @@
 - _hostname_: " century.underthewire.tech ".
 - _port_: " 22 " (2220).
 - _user_: " century4 ".
-- _password_: " 123 ".
+- _password_: " 15768 ".
 
 <br>
 
