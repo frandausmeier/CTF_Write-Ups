@@ -2,7 +2,9 @@
 
 # [Century](https://underthewire.tech/century) | [UnderTheWire](../README.md)
 
-> Powershell basics.
+> PowerShell Fundamentals.
+
+> English | [Spanish](./README.esp.md).
 
 ---
 
