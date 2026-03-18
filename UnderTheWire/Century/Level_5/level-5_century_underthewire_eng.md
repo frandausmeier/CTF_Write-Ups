@@ -17,8 +17,8 @@
 > The password for Century6 is the short name of the domain in which this system resides in PLUS the name of the file on the desktop.
 >
 > **IMPORTANT NOTE**
-> If the short name of the domain is “blob” and the file on the desktop is named “1234”, the password would be “blob1234”.
-> The password will be lowercase no matter how it appears on the screen.
+> - If the short name of the domain is “blob” and the file on the desktop is named “1234”, the password would be “blob1234”.
+> - The password will be lowercase no matter how it appears on the screen.
 
 <br>
 
@@ -96,7 +96,7 @@ What we can use in this case, is the cmdlet [Get-ADDomain](https://learn.microso
 
 <br>
 
-2. Already having in the first part of the command, we go for the second. This should be the name of a file that is on the desktop directory. For that, we just execute [Get-ChildItem](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.5#:~:text=Gets%20the%20items%20and%20child%20items%20in%20one%20or%20more%20specified%20locations.) on that location...
+2. Already having the first part of the command, we go for the second. It should be the name of a file that is on the desktop directory. For that, we just execute [Get-ChildItem](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.5#:~:text=Gets%20the%20items%20and%20child%20items%20in%20one%20or%20more%20specified%20locations.) on that location...
 
 <br>
 
