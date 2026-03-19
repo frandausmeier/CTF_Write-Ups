@@ -38,7 +38,11 @@
 
 <br>
 
-<!-- - [Nivel 7 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_7/nivel-7_century_underthewire_esp.md) | [Level 7 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_7/level-7_century_underthewire_eng.md). -->
+- [Nivel 7 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_7/nivel-7_century_underthewire_esp.md) | [Level 7 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_7/level-7_century_underthewire_eng.md).
+
+<br>
+
+<!-- - [Nivel 8 (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_8/nivel-8_century_underthewire_esp.md) | [Level 8 (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/UnderTheWire/Century/Level_8/level-8_century_underthewire_eng.md). -->
 
 ---
 
