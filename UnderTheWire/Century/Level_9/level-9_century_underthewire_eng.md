@@ -47,7 +47,7 @@ Already being in desktop from the login, we use [Get-ChildItem](https://learn.mi
 ```powershell
 
 
-	PS C:\users\century7\desktop> Get-ChildItem
+    PS C:\users\century7\desktop> Get-ChildItem
 
 
     	Directory: C:\users\century9\desktop
@@ -76,7 +76,7 @@ Already being in desktop from the login, we use [Get-ChildItem](https://learn.mi
 ```powershell
 
 
-	PS C:\users\century7\desktop> Get-Content .\Word_File.txt
+    PS C:\users\century7\desktop> Get-Content .\Word_File.txt
     larceny epibole ampliate trecentos psychotoxic sybarism shatterwit cartilaginification crenulation splenification free
 	spac untragicalness renovater smirch historism tymbal nonobjectivist protestive octobass crownal retrorenal activation
  	ascocarp clawing unaccordingly strontianite refutatory reline unsubmersible unstuffy asynergia asha rejunction spirit
@@ -119,7 +119,7 @@ This is how the entire command looks...
 ```powershell
 
 
-	PS C:\users\century7\desktop> (Get-Content -Delimiter “ “ .\Word_File.txt)[160]
+    PS C:\users\century7\desktop> (Get-Content -Delimiter “ “ .\Word_File.txt)[160]
     pierid
 
 
