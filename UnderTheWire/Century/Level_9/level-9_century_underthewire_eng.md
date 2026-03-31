@@ -52,8 +52,8 @@ Already being in desktop from the login, we use [Get-ChildItem](https://learn.mi
 
     	Directory: C:\users\century9\desktop
     
-    
-	Mode                LastWriteTime         Length Name                 ----                -------------         ------ ----
+    Mode                LastWriteTime         Length Name
+    ----                -------------         ------ ----
     -a----        8/30/2018   3:34 AM           2131 Word_File.txt
     
     
