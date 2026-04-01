@@ -3,9 +3,9 @@
 # Super SSH
 > General skills challenge, PicoCTF.
 
-> English | [Spanish](./...).
+> English | [Spanish](./super-ssh_general-skills_picoctf_eng.md).
 
-> [PDF version](...).
+> [PDF version](https://drive.google.com/file/d/16GTQe2065DFc9MoCSf_6JZTee3bWNSbP/view?usp=sharing).
 
 <br>
 
@@ -80,7 +80,7 @@ We can go about this in two different ways, using the conventional structure of 
 
 <br>
 
-- Following either one of those two options should be enough to be able to succesfully login to the challenge (ctf-player : 59337 ).
+- Following either one of those two options should be enough to be able to succesfully login to the challenge (ctf-player : f3b61b38 ).
 
 <br>
 
