@@ -18,7 +18,7 @@
 
 <br>
 
-- [Super SSH (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Super_SSH/super-ssh_general-skills_picoctf_esp.md) | [Super SSH (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Super_SSH/super-ssh_general-skills_picoctf_eng.md).
+- [Super SSH (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Super_SSH/super-ssh_general-skills_picoctf_esp.md) | Super SSH (ENG)<!--[Super SSH (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Super_SSH/super-ssh_general-skills_picoctf_eng.md)-->.
 
 <br>
 
