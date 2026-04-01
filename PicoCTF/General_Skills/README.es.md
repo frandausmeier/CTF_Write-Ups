@@ -1,14 +1,12 @@
 > [PicoCTF](../README.md) | [Informes y Reportes de CTFs](../../README.md)
 
-# Habilidades Generales
+# _Challenges_ de Habilidades Generales
 
 <br>
 
 > <p> <span> Español - ESP </span> | <a href=https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/README.md> Inglés - ING<a/>. </p>
 
 ---
-
-
 
 <br>
 
@@ -20,12 +18,14 @@
 
 <br>
 
+- [Super SSH (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Super_SSH/super-ssh_general-skills_picoctf_esp.md) | [Super SSH (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Super_SSH/super-ssh_general-skills_picoctf_eng.md).
+
+<br>
+
 <!--
 
 - [Python Wrangling (ESP)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Python_Wrangling/python-wrangling_general-skills_picoctf_esp.md) | [Python Wrangling (ENG)](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/General_Skills/Python_Wrangling/python-wrangling_general-skills_picoctf_eng.md).
 
 -->
 
-<br>
-
-
+---

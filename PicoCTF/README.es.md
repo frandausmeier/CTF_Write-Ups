@@ -32,13 +32,11 @@
 
 <br>
 
-- [Criptografía](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/Cryptography/README.es.md).
-
-<br>
-
----
+- Criptografía<!--[Criptografía](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/Cryptography/README.es.md)-->.
 
 <!-- - Forensia Digital. -->
 
 <br>
+
+---
 

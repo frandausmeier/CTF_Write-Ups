@@ -32,13 +32,12 @@
 
 <br>
 
-- [Cryptography](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/Cryptography/README.md).
+- Cryptography<!--[Cryptography](https://github.com/frandausmeier/CTF_Write-Ups/blob/main/PicoCTF/Cryptography/README.md)-->.
 
-<br>
-
----
 
 <!-- - Forensic Challenges. -->
 
 <br>
+
+---
 
