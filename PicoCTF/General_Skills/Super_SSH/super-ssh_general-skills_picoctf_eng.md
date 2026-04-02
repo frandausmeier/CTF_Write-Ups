@@ -5,7 +5,7 @@
 
 > English | [Spanish](./super-ssh_general-skills_picoctf_eng.md).
 
-> [PDF version](https://drive.google.com/file/d/16GTQe2065DFc9MoCSf_6JZTee3bWNSbP/view?usp=sharing).
+> [PDF version](https://drive.google.com/file/d/1cUURtdpwEeaEuG_skqBfNQhYp6RFhhwI/view?usp=sharing).
 
 <br>
 
