@@ -38,7 +38,7 @@
 <br>
 
 1. Beginning with taking a look at the description of the challenge, we know that we have every single detail (talking about the host, the port, the user and the password) that we need to be able to login successfully to this challenge.\
-We can go about this in two different ways, using the conventional structure of the command...
+We can go about this in two different ways, using the conventional structure of the command using the option " [-p](https://man7.org/linux/man-pages/man1/ssh.1.html#:~:text=%2Dp%20port,-Port) " to specify the port number in which we want the conexion to be done...
 
 <br>
 
@@ -62,7 +62,7 @@ We can go about this in two different ways, using the conventional structure of 
 
 <br>
 
-- or detail the user and host separated from each other in the command.
+- or detail the user and host separated from each other in the command, adding to the already mentioned command the " [-l](https://man7.org/linux/man-pages/man1/ssh.1.html#:~:text=%2Dl%20login%5Fname,-Specifies) " option, to be able to specify the user.
 
 <br>
 
@@ -80,7 +80,7 @@ We can go about this in two different ways, using the conventional structure of 
 
 <br>
 
-- Following either one of those two options should be enough to be able to succesfully login to the challenge (ctf-player : f3b61b38 ).
+- Following either one of those two options should be enough to be able to succesfully login to the challenge and obtain its flag (" picoCTF{s3cur3_c0nn3ct10n_3e293eea} ").
 
 <br>
 

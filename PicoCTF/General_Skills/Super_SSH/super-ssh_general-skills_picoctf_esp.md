@@ -5,7 +5,7 @@
 
 > Español | [Inglés](./super-ssh_general-skills_picoctf_eng.md).
 
-> [Versión en PDF](...).
+> [Versión en PDF](https://drive.google.com/file/d/1TQwVmezd5OUFZIoTMzzjOFsENX6odYJG/view?usp=sharing).
 
 <br>
 
@@ -37,7 +37,8 @@
 
 <br>
 
-1. .
+1. De vuelta, como hacemos usualmente, comenzamos dando un vistazo a la descripción del _challenge_. Esta nos hace saber todos los detalles necesarios (_host_, puerto, usuario y contraseña) para logearnos correctamente al servidor de este nivel usando [ssh](https://man7.org/linux/man-pages/man1/ssh.1.html), nuestro objetivo.\
+Podemos afrontar esto de dos maneras distintas, la primera sería usar la estructura convencional del comando junto a la opción " [-p](https://man7.org/linux/man-pages/man1/ssh.1.html#:~:text=%2Dp%20port,-Port) " para poder especificar el puerto en el cual se va a dar la conexión...
 
 <br>
 
@@ -54,10 +55,11 @@
 	Connection to titan.picoctf.net closed.
 
 ```
+> ssh [user]@[host] -p [port-number]
 
 <br>
 
-- [...].
+- así como también podemos usar otra notación del comando, separar el usuario del _host_ usando la opción [-l](https://man7.org/linux/man-pages/man1/ssh.1.html#:~:text=%2Dl%20login%5Fname,-Specifies) para especificar el usuario.
 
 <br>
 
@@ -68,10 +70,11 @@
 	Connection to titan.picoctf.net closed.
 
 ```
+> ssh [host] -l [user] -p [port-number]
 
 <br>
 
-- [...].
+- Cualquiera de esas dos opciones deberían ser mas que suficientes para poder logearnos correctamente a este nivel y poder obtener la _flag_ de este en el proceso (" picoCTF{s3cur3_c0nn3ct10n_3e293eea} ").
 
 <br>
 
