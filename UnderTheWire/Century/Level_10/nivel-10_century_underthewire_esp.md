@@ -71,9 +71,9 @@ Como primer paso, considerando que desde que nos logeamos estamos en _desktop_, 
 
 <br>
 
-2. Ahora bien, cuando se trata de las otras dos palabras que están en la descripción del _Windows Update service_, no podemos empezar usando el cmdlet [Get-Content](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.management/get-content?view=powershell-7.5#:~:text=Obtiene%20el%20contenido%20del%20elemento%20en%20la%20ubicaci%C3%B3n%20especificada.), dado que este está diseñado para funcionar con _file system items_, como archivos de texto o logs, y los servicios de Windows son programas ejecutable que corren en el background. Siguiendo esa logica, este cmdlet nunca va a ser de utilidad para leer los contenidos de servicios de Windows. Ahora que sabemos esto, podemos tratar con [Get-CimInstance](https://learn.microsoft.com/es-es/powershell/module/cimcmdlets/get-ciminstance?view=powershell-7.5#:~:text=Obtiene%20las%20instancias%20CIM%20de%20una%20clase%20de%20un%20servidor%20CIM), un cmdlet que nos permite obtener información de clases CIM (_Common Information Model_). Estos elementos son muy importantes cuando se trata de definir recursos manejados por el sistema, como software, hardware y componentes del sistema operativo. Este cmdlet es de mucha importacia cuando necesitamos manejar y consultar por información del sistema.\
+2. Ahora bien, cuando se trata de las otras dos palabras que están en la descripción del _Windows Update service_, no podemos empezar usando el cmdlet [Get-Content](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.management/get-content?view=powershell-7.5#:~:text=Obtiene%20el%20contenido%20del%20elemento%20en%20la%20ubicaci%C3%B3n%20especificada.), dado que este está diseñado para funcionar con _file system items_, como archivos de texto o logs, y los servicios de Windows son programas ejecutable que corren en el background. Siguiendo esa logica, este cmdlet nunca va a ser de utilidad para leer los contenidos de servicios de Windows. Ahora que sabemos esto, podemos tratar con [Get-CimInstance](https://learn.microsoft.com/es-es/powershell/module/cimcmdlets/get-ciminstance?view=powershell-7.5#:~:text=Obtiene%20las%20instancias%20CIM%20de%20una%20clase%20de%20un%20servidor%20CIM), un cmdlet que nos permite obtener información de clases CIM (_Common Information Model_). Estos elementos son muy importantes cuando se trata de definir recursos manejados por el sistema, como software, hardware y componentes del sistema operativo. Este cmdlet es de mucha importacia cuando necesitamos manejar y consultar información del sistema.\
 Luego de definir el cmdlet, seguimos usando su opción [-ClassName](https://learn.microsoft.com/es-es/powershell/module/cimcmdlets/get-ciminstance?view=powershell-7.5#:~:text=False-,%2DClassName) para definir el tipo de clase CIM con el cual estamos tratando. Dado que estamos hablando de un servicio de Windows, la clase del objeto que estamos buscando sería "`` Win32_Service ``" y el nombre específico del servicio que estamos buscando es "`` wuauserv ``", por lo que también procedemos a aclarar este usando la opción [-Filter](https://learn.microsoft.com/es-es/powershell/module/cimcmdlets/get-ciminstance?view=powershell-7.5#:~:text=%2DFilter,-Specifies%20a%20where.).\
-Llegados a este punto, deberíamos tener el servicio bien especificado, tanto por tipo (`` -ClassName Win32_Service ``), como por nombre (`` -Filter "Name='wuauserv'" ``), por lo que podemos seguir especificando la propiedad que queremos obtener de este objeto. Para esto, usamos un a barra vertical ("`` | ``") para redireccionar el objeto que encontramos en la primer mitad del comando hacia [Select-Object](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.utility/select-object?view=powershell-7.5#:~:text=Selecciona%20objetos%20o%20propiedades%20de%20objeto), y especificar la busqueda hacia la descripción del servicio ("`` Select-Object Name, Description ``").\
+Llegados a este punto, deberíamos tener el servicio bien especificado, tanto por tipo (`` -ClassName Win32_Service ``), como por nombre (`` -Filter "Name='wuauserv'" ``), por lo que podemos seguir especificando la propiedad que queremos obtener de este objeto. Para esto, usamos un a barra vertical (`` | ``) para redireccionar el objeto que encontramos en la primer mitad del comando hacia [Select-Object](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.utility/select-object?view=powershell-7.5#:~:text=Selecciona%20objetos%20o%20propiedades%20de%20objeto), y especificar la busqueda hacia la descripción del servicio (`` Select-Object Name, Description ``).\
 Así es como el comando entero se vería ejectuado correctamente...
 
 <br>
@@ -85,10 +85,10 @@ Así es como el comando entero se vería ejectuado correctamente...
     >> -Filter "Name='wuauserv'" | Select-Object Name, Description
     >>
 
-    Description
-    -----------                                   
-    Enables the detection, download, and installation of updates for Windows and 
-    other programs. If this service is di...
+    Name       Description
+    ----       -----------
+    wuauserv   Enables the detection, download, and installation of updates for Windows 
+               and other programs. If this serv...
 
 
 ```
@@ -112,6 +112,8 @@ Así es como el comando entero se vería ejectuado correctamente...
 </p>
 
 > Usos de [Get-Location](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.management/get-location?view=powershell-7.5#:~:text=Obtiene%20informaci%C3%B3n%20sobre%20la%20ubicaci%C3%B3n%20de%20trabajo%20actual%20o%20una%20pila%20de%20ubicaciones) y [Get-ChildItem](https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.management/get-childitem?view=powershell-7.5#:~:text=Obtiene%20los%20elementos%20y%20elementos%20secundarios%20de%20una%20o%20varias%20ubicaciones%20especificadas).
+
+<br>
 
 <br>
 
