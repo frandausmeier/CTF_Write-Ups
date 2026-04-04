@@ -116,6 +116,8 @@ This is how the entire command would look written this way...
 
 <br>
 
+<br>
+
 <p align="center">
   <img src="./attachments/level-10_century_underthewire_2.gif"/>
 </p>
